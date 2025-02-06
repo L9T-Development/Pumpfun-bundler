@@ -1,57 +1,36 @@
-import { createKeypairs } from "./src/createKeys";
-import { buyBundle } from "./src/jitoPool";
-import { sender } from "./src/senderUI";
-import { sellXPercentagePF } from "./src/sellFunc";
-import promptSync from "prompt-sync";
-import { sellXPercentageRAY } from "./src/sellRay";
+import { VersionedTransaction, Keypair, SystemProgram, Transaction, Connection, ComputeBudgetProgram, TransactionInstruction, TransactionMessage, AddressLookupTableProgram, PublicKey, SYSVAR_RENT_PUBKEY } from "@solana/web3.js"
+import { ASSOCIATED_TOKEN_PROGRAM_ID, getAssociatedTokenAddressSync, NATIVE_MINT, TOKEN_PROGRAM_ID } from "@solana/spl-token";
+import NodeWallet from "@coral-xyz/anchor/dist/cjs/nodewallet";
+import { AnchorProvider } from "@coral-xyz/anchor";
+import { openAsBlob } from "fs";
+import base58 from "bs58"
 
-const prompt = promptSync();
+import { DESCRIPTION, DISTRIBUTION_WALLETNUM, FILE, global_mint, JITO_FEE, PRIVATE_KEY, PUMP_PROGRAM, RPC_ENDPOINT, RPC_WEBSOCKET_ENDPOINT, SWAP_AMOUNT, TELEGRAM, TOKEN_CREATE_ON, TOKEN_NAME, TOKEN_SHOW_NAME, TOKEN_SYMBOL, TWITTER, WEBSITE } from "./constants"
+import { saveDataToFile, sleep } from "./utils"
+import { createAndSendV0Tx, execute } from "./executor/legacy"
+import { PumpFunSDK } from "./src/pumpfun";
+import { executeJitoTx } from "./executor/jito";
 
-async function main() {
-	let running = true;
+const commitment = "confirmed"
 
-	while (running) {
-		console.log("DM me for support");
-		console.log("https://t.me/benorizz0");
-		console.log("solana-scripts.com");
-		console.log("\nMenu:");
-		console.log("1. Create Keypairs");
-		console.log("2. Pre Launch Checklist");
-		console.log("3. Create Pool Bundle");
-		console.log("4. Sell % of Supply on Pump.Fun");
-		console.log("5. Sell % of Supply on Raydium");
-		console.log("Type 'exit' to quit.");
+const connection = new Connection(RPC_ENDPOINT, {
+  wsEndpoint: RPC_WEBSOCKET_ENDPOINT, commitment
+})
+const mainKp = Keypair.fromSecretKey(base58.decode(PRIVATE_KEY))
 
-		const answer = prompt("Choose an option or 'exit': "); // Use prompt-sync for user input
+let kps: Keypair[] = []
+const transactions: VersionedTransaction[] = []
 
-		switch (answer) {
-			case "1":
-				await createKeypairs();
-				break;
-			case "2":
-				await sender();
-				break;
-			case "3":
-				await buyBundle();
-				break;
-			case "4":
-				await sellXPercentagePF();
-				break;
-			case "5":
-				await sellXPercentageRAY();
-				break;
-			case "exit":
-				running = false;
-				break;
-			default:
-				console.log("Invalid option, please choose again.");
-		}
-	}
+const mintKp = Keypair.generate()
+const mintAddress = mintKp.publicKey
 
-	console.log("Exiting...");
-	process.exit(0);
+let sdk = new PumpFunSDK(new AnchorProvider(connection, new NodeWallet(new Keypair()), { commitment }));
+
+const main = async () => {
+	/**
+	 * main part is private :
+	 * If u need help, plz contact here: https://t.me/shiny0103
+	 */
 }
 
-main().catch((err) => {
-	console.error("Error:", err);
-});
+main()

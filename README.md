@@ -1,12 +1,12 @@
 # Pump.Fun Bundler
 
-Welcome to the Open-Source **Pump.Fun Bundler** – your ultimate solution for bundling on Pump.Fun with advanced profile creation and anti-bubble maps!
+**Pump.Fun Bundler** – your ultimate solution for bundling on Pump.Fun with advanced profile creation and anti-bubble maps!
 
-I have updated this to migrate to **Pumpswap** so can charge bundling on **Pumpswap**.
+I have updated this to migrate to **Pumpswap** so can charge bundling on **Pumpswap** and buy token on pumpswap with bundle.
 
 ## Contact
 
-For more details or need help, contact here: [Telegram](https://t.me/shiny0103)
+For more details or need help, contact here: [Telegram](https://t.me/shiny0103) | [Twitter](https://x.com/0xTan1319)
 
 ## Sample TX
 
@@ -16,15 +16,9 @@ For more details or need help, contact here: [Telegram](https://t.me/shiny0103)
 
 - Updated version
 
-    https://solscan.io/token/4KndEPnfUbBWMqt98MASDdRL7DNLzyRG2E5epTps3Hz5 https://pump.fun/4KndEPnfUbBWMqt98MASDdRL7DNLzyRG2E5epTps3Hz5
+    https://solscan.io/tx/5XrezdKGgDwAj7iNoGNUViQ8KxHeTcAvZNgMeTyBUy1ffN71RGsqmDxf3F219bTbBRHi7NiYGHyd5puSLkgycvEH
 
-    https://solscan.io/tx/qEkqUEhmxd13AKNVKQqNNYD6m7HybY1qS5vcUCdypKvqaVSGqhhpLMGhae3ca86TdA4UHTGvrzyifJQm3LgxwJh 
-
-    https://solscan.io/tx/5GKq7hTTF9UKfeUNLE5WS34mo27NBewX74oxfni83KgWgtq9KQskcpEFCUiZbDLn4BkhXZ5CLh5pWH6CHX9EMwEH 
-    
-    https://solscan.io/tx/W33LBg34YvnKjt4db6thosLwLWHUHEqxSraXsVXCw8nqH8CPKNVKyNF6ykAnwqPLVArvWaP2aZnfN8NHhUKLZGh 
-    
-    https://solscan.io/tx/3w9jxKvFMYZmUXNAC9ee3QgsmvKAiBrm4zKNp6wJb32Mn4d2H9g1jdobeGfQxyPczfUcU6398msosKziSdhzBjeY
+    https://explorer.jito.wtf/bundle/9fe06195bf9ba9d7eee8c95d1d169c0cc3ef199a24f848a1ceb23956037dd555
 
 ## Features
 

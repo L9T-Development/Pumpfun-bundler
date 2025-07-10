@@ -1,6 +1,6 @@
-# Pump.Fun Bundler
+# Pump.Fun Bundler - Pumpfun-Pumpswap-Migration-Bot
 
-**Pump.Fun Bundler** – your ultimate solution for bundling on Pump.Fun with advanced profile creation and anti-bubble maps!
+**Pump.Fun Bundler(Pumpfun Pumpswap Migration Bot)** – your ultimate solution for bundling on Pump.Fun with advanced profile creation and anti-bubble maps + migrate pumpswap + buy on pumpswap within one transaction!
 
 I have updated this to migrate to **Pumpswap** so can charge bundling on **Pumpswap** and buy token on pumpswap with bundle.
 
@@ -8,18 +8,10 @@ I have updated this to migrate to **Pumpswap** so can charge bundling on **Pumps
 
 For more details or need help, contact here: [Telegram](https://t.me/shiny0103) | [Twitter](https://x.com/0xTan1319)
 
-## Sample TX
+## Pumpfun - Pumpswap Migration bot TX
 
-- First version
-
-    https://pump.fun/7JTQG7Bp6fsbnSmfT6NqRoTmoMj6aX9NZXdnsnHgJtuz
-
-- Updated version
-
-    https://solscan.io/tx/5XrezdKGgDwAj7iNoGNUViQ8KxHeTcAvZNgMeTyBUy1ffN71RGsqmDxf3F219bTbBRHi7NiYGHyd5puSLkgycvEH
-
-    https://explorer.jito.wtf/bundle/9fe06195bf9ba9d7eee8c95d1d169c0cc3ef199a24f848a1ceb23956037dd555
-
+- https://solscan.io/tx/2JDAAvyPnxVKKrn9HTXH6yJVwANMQivFFFZqsiMkSBYAop7qsUXgg29SFP4NzjmbRBmhzV4hiPGapZuUnmnEFqMa
+  
 ## Features
 
 ### Seamless UI
@@ -63,7 +55,4 @@ For more details or need help, contact here: [Telegram](https://t.me/shiny0103) 
 
 - Gathering Sol from 24 wallets you bundle buy and sell
 
-## Updated Version
-
-Previous version has serious problem. But nobody recorgnized it but after delivery of the product, when the clients are testing with big amount of solana, it meets error (exactly SLIPPAGE error) So, in updated version, I solved that problem. And seperate the dev wallet and funding wallet. And randomize the amount of distributing to bundler wallets, by doing that we can decorate the chart well.
 

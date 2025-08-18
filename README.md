@@ -8,9 +8,11 @@ I have updated this to migrate to **Pumpswap** so can charge bundling on **Pumps
 
 For more details or need help, contact here: [Telegram](https://t.me/shiny0103) | [Twitter](https://x.com/0xTan1319)
 
-## Pumpfun - Pumpswap Migration bot TX
+## Sample tx
 
-- https://solscan.io/tx/2JDAAvyPnxVKKrn9HTXH6yJVwANMQivFFFZqsiMkSBYAop7qsUXgg29SFP4NzjmbRBmhzV4hiPGapZuUnmnEFqMa
+- [Pumpfun-pumpswap migration tx](https://solscan.io/tx/2JDAAvyPnxVKKrn9HTXH6yJVwANMQivFFFZqsiMkSBYAop7qsUXgg29SFP4NzjmbRBmhzV4hiPGapZuUnmnEFqMa)
+
+- [pumpfun updated recently so i have update it with jito](https://explorer.jito.wtf/bundle/bee59fbe77afc3ce1448bd7c4857b31718ba148dc63020d230ec043568126996)
   
 ## Features
 
